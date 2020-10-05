@@ -4,7 +4,7 @@ library(tidyverse)  # Data handling
 library(cluster)    # Clustering algorithms
 
 # importing the data 
-data <- read_csv('C:\\Users\\abhi1\\Desktop\\ML Codes\\Decision Tree practice\\iris.csv')
+data <- read_csv('iris.csv')
 data <- data[,-1]
 
 # Modify the data,
