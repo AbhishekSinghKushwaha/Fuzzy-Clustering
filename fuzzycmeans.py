@@ -18,7 +18,7 @@ sigmas = [[0.7, 0.4],
           [1.0, 0.6]]
 
 # Importing dataset
-data = pd.read_csv("C:\\Users\\abhi1\\Desktop\\New folder\\Fuzzzy cluster\\data.csv")
+data = pd.read_csv("data.csv")
 
 xpts = data.iloc[:,0]
 ypts = data.iloc[:,1]
